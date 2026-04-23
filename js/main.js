@@ -64,3 +64,11 @@ let matriz = [
 ];
 matriz[1][2] = 25;  // Cambia el elemento en la segunda fila y tercera columna
 console.log(matriz);
+
+
+// Ejercicio 11: Sumar todos los elementos del array
+const numeros = [10, 30, 58, 96, 100];
+let suma = numeros.reduce(function (acumulador, num) {
+  return acumulador + num;
+}, 0);
+console.log(suma);
