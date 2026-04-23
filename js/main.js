@@ -42,3 +42,15 @@ console.log(combina);
 // Ejercicio 8:  Encontrar si un array incluye un elemento
 let cantantes = ["taylor", "selena", "pink", "rihanna"];
 console.log(cantantes.includes("pink"));
+
+
+// Ejercicio 9:  Buscar el índice de un elemento
+let colores = ["rojo", "verde", "azul", "morado"];
+let indice1 = colores.indexOf("rojo");
+let indice2 = colores.indexOf("verde");
+let indice3 = colores.indexOf("azul");
+let indice4 = colores.indexOf("morado");
+console.log(indice1);
+console.log(indice2);
+console.log(indice3);
+console.log(indice4);
