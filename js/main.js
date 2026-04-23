@@ -11,4 +11,8 @@ let andalucia = ["sevilla", "málaga", "córdoba", "granada", "almería", "huelv
 andalucia.unshift("cádiz");
 console.log(andalucia);
 
-// Ejercicio 4: 
+// Ejercicio 4: Eliminar el primer elemento del array
+let hoteles = ["hilton", "windsor", "ibis", "marriott"]
+let primero = hoteles.shift();
+console.log(hoteles);
+
