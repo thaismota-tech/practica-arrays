@@ -84,9 +84,20 @@ console.log(triplicados);
 
 // Ejercicio 13: Filtrar números mayores a un valor
 
-let numerosparafiltrar = [1, 5, 7 ,9, 11]
+let numerosparafiltrar = [1, 5, 7 ,9, 11];
 let numerodefiltro = 6;
 let filtrados = numerosparafiltrar.filter(function (num) {
  return num > numerodefiltro;
  });
 console.log(filtrados);
+
+
+// Ejercicio 14: Verificar si todos los elementos son mayores a un número
+let numerosdeotroarray = [5, 9, 70, 96, 132];
+let minimoPermitido = 10;
+let todosSonMayores = numerosdeotroarray.every(function(num) {
+return num > minimoPermitido; 
+});
+console.log(todosSonMayores);
+
+
