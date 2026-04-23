@@ -6,7 +6,9 @@ console.log(chocolates[0]);
 let barrios = ["leme", "copacabana", "arpoador", "ipanema", "leblon"];
 console.log(barrios[4]);
 
-// Ejercicio 3: Agregar un elemento al inicio del array
+// Ejercicio 3: Agregar un elemento al inicio del array y lo devuelve actualizado
 let andalucia = ["sevilla", "málaga", "córdoba", "granada", "almería", "huelva", "jaén"];
 andalucia.unshift("cádiz");
 console.log(andalucia);
+
+// Ejercicio 4: 
