@@ -101,3 +101,10 @@ return num > minimoPermitido;
 console.log(todosSonMayores);
 
 
+// Ejercicio 15: Obtener el primer elemento que cumple una condición
+let masnumeros = [4, 9, 16, 25];
+let encontrado = masnumeros.find(function (num) {
+  return num > 10;
+});
+console.log(encontrado); 
+
