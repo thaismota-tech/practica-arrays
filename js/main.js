@@ -114,3 +114,11 @@ let nuevoarraydenumeros = [12, 15, 21, 30, 35];
 nuevoarraydenumeros.forEach(function (num) {
   console.log(num);
 });
+
+
+// Ejercicio 17: Crear un array con el doble de cada número
+let numerosarray = [20, 40, 50, 100, 500];
+let duplicados = numerosarray.map(function (num) {
+  return num * 2;
+});
+console.log(duplicados);
