@@ -122,3 +122,11 @@ let duplicados = numerosarray.map(function (num) {
   return num * 2;
 });
 console.log(duplicados);
+
+
+// Ejercicio 18:  Convertir un array de nombres en mayúsculas
+let nombres = ["mariana", "juliana", "tatiana", "diana", "ana"]
+let nombresMayusculas = nombres.map(function (nombre) { 
+return nombre.toUpperCase(); 
+});
+console.log(nombresMayusculas)
