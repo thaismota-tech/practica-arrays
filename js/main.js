@@ -30,3 +30,10 @@ console.log(nombresdechicas);
 let nombresdechicos = ["adam", "joey", "ross", "john", "jack"]
 let ultimo = nombresdechicos.pop();
 console.log(nombresdechicos);
+
+
+// Ejercicio 7:  Combinar dos arrays
+let frutas = ["fresa", "framboesa"];
+let proteinas = ["pollo", "pescado"];
+let combina = frutas.concat(proteinas);
+console.log(combina);
