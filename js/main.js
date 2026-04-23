@@ -37,3 +37,8 @@ let frutas = ["fresa", "framboesa"];
 let proteinas = ["pollo", "pescado"];
 let combina = frutas.concat(proteinas);
 console.log(combina);
+
+
+// Ejercicio 8:  Encontrar si un array incluye un elemento
+let cantantes = ["taylor", "selena", "pink", "rihanna"];
+console.log(cantantes.includes("pink"));
