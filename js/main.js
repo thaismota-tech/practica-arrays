@@ -72,3 +72,11 @@ let suma = numeros.reduce(function (acumulador, num) {
   return acumulador + num;
 }, 0);
 console.log(suma);
+
+
+// Ejercicio 12: Multiplicar todos los elementos del array
+let numerosdeunarray = [100, 200, 300, 400, 500];
+let triplicados = numerosdeunarray.map(function (num) {
+  return num * 3;
+});
+console.log(triplicados);
