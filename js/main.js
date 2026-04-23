@@ -54,3 +54,13 @@ console.log(indice1);
 console.log(indice2);
 console.log(indice3);
 console.log(indice4);
+
+
+// Ejercicio 10: Reemplazar un elemento en un array
+let matriz = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+matriz[1][2] = 25;  // Cambia el elemento en la segunda fila y tercera columna
+console.log(matriz);
