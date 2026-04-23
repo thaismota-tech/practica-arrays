@@ -24,3 +24,9 @@ console.log(hoteles);
 let nombresdechicas = ["kate", "ella", "sophie", "mary", "joy"]
 nombresdechicas.push("hanna");
 console.log(nombresdechicas);
+
+
+// Ejercicio 6:  Eliminar el último elemento del array
+let nombresdechicos = ["adam", "joey", "ross", "john", "jack"]
+let ultimo = nombresdechicos.pop();
+console.log(nombresdechicos);
