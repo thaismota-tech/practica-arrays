@@ -108,3 +108,9 @@ let encontrado = masnumeros.find(function (num) {
 });
 console.log(encontrado); 
 
+
+// Ejercicio 16: Imprimir cada elemento del array
+let nuevoarraydenumeros = [12, 15, 21, 30, 35];
+nuevoarraydenumeros.forEach(function (num) {
+  console.log(num);
+});
